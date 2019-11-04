@@ -25,4 +25,18 @@ public class TestStaticVarTest {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999fc18660e18ff5f7c() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    TestStaticVar.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

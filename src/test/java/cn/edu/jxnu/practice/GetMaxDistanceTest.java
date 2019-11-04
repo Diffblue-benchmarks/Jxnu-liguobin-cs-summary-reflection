@@ -36,7 +36,7 @@ public class GetMaxDistanceTest {
     final TreeNode arg0 = new TreeNode(0);
 
     // Act
-    final Result actual = GetMaxDistance.getMaximumDistance(arg0);
+    final GetMaxDistance.Result actual = GetMaxDistance.getMaximumDistance(arg0);
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -65,7 +65,7 @@ public class GetMaxDistanceTest {
   public void constructorOutputNotNull9991cf0240b76eccce9() {
 
     // Act, creating object to test constructor
-    final Result actual = new Result();
+    final GetMaxDistance.Result actual = new GetMaxDistance.Result();
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -81,7 +81,7 @@ public class GetMaxDistanceTest {
     final int arg0 = 1;
 
     // Act, creating object to test constructor
-    final Result actual = new Result(arg0);
+    final GetMaxDistance.Result actual = new GetMaxDistance.Result(arg0);
 
     // Assert result
     Assert.assertNotNull(actual);

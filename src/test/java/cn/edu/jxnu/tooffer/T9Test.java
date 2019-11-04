@@ -57,4 +57,18 @@ public class T9Test {
     Assert.assertEquals(1, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999d0b8161009b2cb4f() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    T9.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

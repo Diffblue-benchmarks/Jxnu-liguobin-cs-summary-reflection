@@ -391,4 +391,19 @@ public class Main9Test {
     // The method returns void, testing that no exception is thrown
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void toArrayInput3OutputVoid999fcf4287be6f93c90() {
+
+    // Arrange
+    final Main9<Object> thisObj = new Main9<Object>();
+    final Object[] arg0 = { "d", "d", "d" };
+
+    // Act
+    final Object[] actual = thisObj.toArray(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

@@ -28,6 +28,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid999b5c249e9f50a3296() {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    Leetcode_628_Math.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void maximumProduct2Input8OutputZero999a18a402bc8b2c424() {
 //
 //    // Arrange

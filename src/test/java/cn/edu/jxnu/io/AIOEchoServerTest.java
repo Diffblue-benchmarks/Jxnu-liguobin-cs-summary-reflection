@@ -35,7 +35,7 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
-//  public void startOutputVoid999c83ff659220a33d2() throws IOException, InterruptedException, TimeoutException, ExecutionException {
+//  public void startOutputVoid999c83ff659220a33d2() throws TimeoutException, ExecutionException, InterruptedException, IOException {
 //
 //    // Arrange
 //    final AIOEchoServer thisObj = new AIOEchoServer();

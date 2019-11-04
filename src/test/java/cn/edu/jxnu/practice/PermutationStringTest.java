@@ -31,6 +31,20 @@ public class PermutationStringTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9994ea50920608d1998() {
+
+    // Arrange
+    final String[] arg0 = { "ABCDE", "ABCDE", "ABCDE" };
+
+    // Act
+    PermutationString.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void moveStringInputNotNullOutputVoid999b95f70d114572499() {
 
     // Arrange

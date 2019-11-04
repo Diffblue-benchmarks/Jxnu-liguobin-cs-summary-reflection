@@ -16,6 +16,7 @@ import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 import org.objectweb.asm.MethodVisitor;
 
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 
@@ -96,6 +97,21 @@ public class IndyCompileTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputInvocationTargetException9997c18fcf79ffea0c4() throws Throwable {
+
+    // Arrange
+    final String[] arg0 = { "Example", "Example", "Example" };
+
+    // Act
+    thrown.expect(InvocationTargetException.class);
+    IndyCompile.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void constructorInputNullNullOutputNotNull999902655f1ee606c79() {
 
     // Arrange
@@ -103,7 +119,7 @@ public class IndyCompileTest {
     final Exp arg1 = null;
 
     // Act, creating object to test constructor
-    final Mul actual = new Mul(arg0, arg1);
+    final IndyCompile.Mul actual = new IndyCompile.Mul(arg0, arg1);
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -117,7 +133,7 @@ public class IndyCompileTest {
   public void getMaxVarIndexOutputNullPointerException999c00adcf9caee21f4() {
 
     // Arrange
-    final Not thisObj = new Not(null);
+    final IndyCompile.Not thisObj = new IndyCompile.Not(null);
 
     // Act
     thrown.expect(NullPointerException.class);
@@ -136,7 +152,7 @@ public class IndyCompileTest {
     final Exp arg1 = null;
 
     // Act, creating object to test constructor
-    final Or actual = new Or(arg0, arg1);
+    final IndyCompile.Or actual = new IndyCompile.Or(arg0, arg1);
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -150,7 +166,7 @@ public class IndyCompileTest {
   public void compileInputNullOutputNullPointerException9997e978dfc6652bc4e() {
 
     // Arrange
-    final Var thisObj = new Var(25);
+    final IndyCompile.Var thisObj = new IndyCompile.Var(25);
     final MethodVisitor arg0 = null;
 
     // Act
@@ -169,7 +185,7 @@ public class IndyCompileTest {
     final int arg0 = 25;
 
     // Act, creating object to test constructor
-    final Var actual = new Var(arg0);
+    final IndyCompile.Var actual = new IndyCompile.Var(arg0);
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -182,7 +198,7 @@ public class IndyCompileTest {
   public void getMaxVarIndexOutputPositive999beb8c1511f5bd9f5() {
 
     // Arrange
-    final Var thisObj = new Var(25);
+    final IndyCompile.Var thisObj = new IndyCompile.Var(25);
 
     // Act
     final int actual = thisObj.getMaxVarIndex();

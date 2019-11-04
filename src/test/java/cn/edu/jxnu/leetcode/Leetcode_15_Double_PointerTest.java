@@ -32,6 +32,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid999124efe7c62d826b1() {
+//
+//    // Arrange
+//    final String[] arg0 = { "\n", "\n", "\n" };
+//
+//    // Act
+//    Leetcode_15_Double_Pointer.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void threeSumInput8Output09999b68236ca014da7c() {
 //
 //    // Arrange

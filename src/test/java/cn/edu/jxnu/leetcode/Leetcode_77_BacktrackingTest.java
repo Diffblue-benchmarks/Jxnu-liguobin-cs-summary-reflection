@@ -53,5 +53,19 @@
 //    Assert.assertNotNull(actual);
 //
 //  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid999f0dabe0b11431e29() {
+//
+//    // Arrange
+//    final String[] arg0 = { "\n", "\n", "\n" };
+//
+//    // Act
+//    Leetcode_77_Backtracking.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

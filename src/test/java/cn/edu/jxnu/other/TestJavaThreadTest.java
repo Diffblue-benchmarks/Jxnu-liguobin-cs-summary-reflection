@@ -60,13 +60,27 @@ public class TestJavaThreadTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9998e4308c0160139de() {
+
+    // Arrange
+    final String[] arg0 = { "H1\u4efb\u52a1", "H1\u4efb\u52a1", "H1\u4efb\u52a1" };
+
+    // Act
+    TestJavaThread.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void constructorInputNotNullOutputNotNull999e709564d3d3bb632() {
 
     // Arrange
     final String arg0 = "aaaaa";
 
     // Act, creating object to test constructor
-    final ThreadB actual = new ThreadB(arg0);
+    final TestJavaThread.ThreadB actual = new TestJavaThread.ThreadB(arg0);
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -78,7 +92,7 @@ public class TestJavaThreadTest {
   public void runOutputVoid999a7ee5c753226b11b() {
 
     // Arrange
-    final ThreadB thisObj = new ThreadB("aaaaa");
+    final TestJavaThread.ThreadB thisObj = new TestJavaThread.ThreadB("aaaaa");
 
     // Act
     thisObj.run();

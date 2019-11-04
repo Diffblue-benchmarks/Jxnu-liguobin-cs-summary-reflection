@@ -1135,7 +1135,7 @@ public class RTTest {
   public void constructorOutputNotNull999ad56b861e28ffdb1() {
 
     // Act, creating object to test constructor
-    final UnayOps actual = new UnayOps();
+    final RT.UnayOps actual = new RT.UnayOps();
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -1150,7 +1150,7 @@ public class RTTest {
     final boolean arg0 = true;
 
     // Act
-    final Object actual = UnayOps.not(arg0);
+    final Object actual = RT.UnayOps.not(arg0);
 
     // Assert result
     Assert.assertNotNull(actual);

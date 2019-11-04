@@ -28,6 +28,20 @@ public class Leetcode_91_DpTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9991429d6b526188c84() {
+
+    // Arrange
+    final String[] arg0 = { "0", "0", "0" };
+
+    // Act
+    Leetcode_91_Dp.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void numDecodingsInputNotNullOutputZero99928749990df5de794() {
 
     // Arrange

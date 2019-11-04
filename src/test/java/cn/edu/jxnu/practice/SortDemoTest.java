@@ -64,4 +64,18 @@ public class SortDemoTest {
     Assert.assertEquals(0, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999399a8d8b1c1de032() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    SortDemo.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

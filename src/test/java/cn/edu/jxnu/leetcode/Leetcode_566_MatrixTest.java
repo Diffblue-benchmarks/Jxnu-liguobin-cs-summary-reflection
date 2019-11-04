@@ -28,7 +28,7 @@ public class Leetcode_566_MatrixTest {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void matrixReshape2Input3ZeroZeroOutput3999140f2f432368cde3() {
 //
@@ -52,8 +52,8 @@ public class Leetcode_566_MatrixTest {
 //    Assert.assertArrayEquals(new int[]{ 0, 0, 0, 0, 0, 0, 0, 0 }, ((int[]) actual[2]));
 //
 //  }
-//
-//  // Test written by Diffblue Cover
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void matrixReshapeInput3ZeroZeroOutput399956374415affdd915() {
 //

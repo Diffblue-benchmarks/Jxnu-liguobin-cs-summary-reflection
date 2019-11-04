@@ -28,6 +28,20 @@ public class MoreThanHalfNumTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9995587cbde8a9d36af() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    MoreThanHalfNum.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void MoreThanHalfNum_SolutionInput8OutputZero9993d9f153471376202() {
 
     // Arrange

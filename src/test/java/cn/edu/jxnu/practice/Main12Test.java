@@ -30,6 +30,20 @@ public class Main12Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999df3ebc699d7936a0() throws IOException {
+
+    // Arrange
+    final String[] arg0 = { "UTF-8", "UTF-8", "UTF-8" };
+
+    // Act
+    Main12.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void readFileInputNotNullOutputNotNull9996c3daa2d7dc94801() throws IOException {
 
     // Arrange

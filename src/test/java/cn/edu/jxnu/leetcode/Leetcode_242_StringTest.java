@@ -41,4 +41,18 @@ public class Leetcode_242_StringTest {
     Assert.assertTrue(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9996bb04ff8dd532108() {
+
+    // Arrange
+    final String[] arg0 = { "bcda", "bcda", "bcda" };
+
+    // Act
+    Leetcode_242_String.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

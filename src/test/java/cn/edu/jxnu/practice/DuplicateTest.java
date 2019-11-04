@@ -61,4 +61,18 @@ public class DuplicateTest {
     Assert.assertFalse(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid99934efaed626854fe3() {
+
+    // Arrange
+    final String[] arg0 = { "\u4e0d\u5b58\u5728\u91cd\u590d\u7684\u6570\u5b57\uff01", "\u4e0d\u5b58\u5728\u91cd\u590d\u7684\u6570\u5b57\uff01", "\u4e0d\u5b58\u5728\u91cd\u590d\u7684\u6570\u5b57\uff01" };
+
+    // Act
+    Duplicate.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

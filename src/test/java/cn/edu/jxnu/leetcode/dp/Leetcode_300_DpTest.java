@@ -55,4 +55,18 @@ public class Leetcode_300_DpTest {
     Assert.assertEquals(1, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999877b7eb4e6ddbab2() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Leetcode_300_Dp.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

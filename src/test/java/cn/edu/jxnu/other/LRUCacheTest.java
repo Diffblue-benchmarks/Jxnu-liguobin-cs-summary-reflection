@@ -9,6 +9,7 @@ import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 
 import java.util.HashMap;
+import java.util.NoSuchElementException;
 
 
 
@@ -55,6 +56,21 @@ public class LRUCacheTest {
     Assert.assertEquals(-1, actual);
 
   }
+
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputNoSuchElementException999851a9b87da6b0ab3() {
+//
+//    // Arrange
+//    final String[] arg0 = { "\\ ", "\\ ", "\\ " };
+//
+//    // Act
+//    thrown.expect(NoSuchElementException.class);
+//    LRUCache.main(arg0);
+//
+//    // The method is not expected to return due to exception thrown
+//
+//  }
 
   // Test written by Diffblue Cover
   @Test

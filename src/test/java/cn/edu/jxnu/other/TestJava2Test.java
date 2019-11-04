@@ -28,6 +28,20 @@ public class TestJava2Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999fea9f34cebdda54f() {
+
+    // Arrange
+    final String[] arg0 = { "", "", "" };
+
+    // Act
+    TestJava2.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void testInputPositiveOutputVoid99971fc7a226cd3bef3() {
 
     // Arrange

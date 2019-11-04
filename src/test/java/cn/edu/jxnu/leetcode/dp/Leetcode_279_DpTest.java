@@ -28,6 +28,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid9990ecbfca41e25e55e() {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    Leetcode_279_Dp.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void numSquaresInputPositiveOutputPositive9999d408477a66add01() {
 //
 //    // Arrange

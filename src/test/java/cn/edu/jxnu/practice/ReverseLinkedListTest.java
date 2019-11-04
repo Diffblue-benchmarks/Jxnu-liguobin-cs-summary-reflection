@@ -29,6 +29,20 @@ public class ReverseLinkedListTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid99980fd49857d9141ad() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    ReverseLinkedList.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void reverseList2InputNotNullOutputNotNull9991a32d7471ec5d704() {
 
     // Arrange

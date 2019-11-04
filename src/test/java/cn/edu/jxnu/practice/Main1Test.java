@@ -8,6 +8,7 @@ import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 
 import java.lang.reflect.Array;
+import java.util.NoSuchElementException;
 
 
 
@@ -30,6 +31,21 @@ public class Main1Test {
     Assert.assertNotNull(actual);
 
   }
+
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputNoSuchElementException9994b9aa0fc8dae997b() {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    thrown.expect(NoSuchElementException.class);
+//    Main1.main(arg0);
+//
+//    // The method is not expected to return due to exception thrown
+//
+//  }
 
   // Test written by Diffblue Cover
   @Test

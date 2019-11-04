@@ -43,3 +43,12 @@ task diffbluePrintClasspath {
   }
 }
 
+
+		task diffbluePrintClasspath {
+			doLast {
+				def file = new File('diffblue-classpath.txt')
+				file.write('.')
+				configurations.testRuntime.each { file.append( ':'+it.toString() )}
+			}
+		}
+		

@@ -41,6 +41,21 @@ public class UseTwoStack2BeQueueTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputRuntimeException9996f99013a66e812ec() {
+
+    // Arrange
+    final String[] arg0 = { "Queue is empty!", "Queue is empty!", "Queue is empty!" };
+
+    // Act
+    thrown.expect(RuntimeException.class);
+    UseTwoStack2BeQueue.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void popOutputRuntimeException999f3c5e89c6905ad51() {
 
     // Arrange

@@ -89,6 +89,20 @@ public class SHA1Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9993d6ec64408334397() {
+
+    // Arrange
+    final String[] arg0 = { "", "", "" };
+
+    // Act
+    SHA1.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void toBytesInputNotNullOutput0999febdad0d6a6e904e() {
 
     // Arrange

@@ -28,7 +28,7 @@ public class Leetcode_79_BacktrackingTest {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void existInput3NotNullOutputFalse999f143d5db8dab21e0() {
 //
@@ -47,4 +47,18 @@ public class Leetcode_79_BacktrackingTest {
 //    Assert.assertFalse(actual);
 //
 //  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999ec55f15e829b04ae() {
+
+    // Arrange
+    final String[] arg0 = { "ABC", "ABC", "ABC" };
+
+    // Act
+    Leetcode_79_Backtracking.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

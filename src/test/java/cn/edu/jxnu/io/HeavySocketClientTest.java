@@ -8,6 +8,8 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 
+import java.io.IOException;
+
 
 
 public class HeavySocketClientTest {
@@ -38,6 +40,20 @@ public class HeavySocketClientTest {
 
     // Assert result
     Assert.assertNotNull(actual);
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9994899cc77de0ec9c3() throws IOException {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    HeavySocketClient.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
 
   }
 }

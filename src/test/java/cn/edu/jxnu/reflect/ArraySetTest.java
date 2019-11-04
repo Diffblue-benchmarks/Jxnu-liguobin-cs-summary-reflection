@@ -61,6 +61,20 @@ public class ArraySetTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9996bab015bec152098() {
+
+    // Arrange
+    final String[] arg0 = { "[enlarge]", "[enlarge]", "[enlarge]" };
+
+    // Act
+    ArraySet.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void removeInputZeroOutputVoid9994d5d7408185ec316() {
 
     // Arrange

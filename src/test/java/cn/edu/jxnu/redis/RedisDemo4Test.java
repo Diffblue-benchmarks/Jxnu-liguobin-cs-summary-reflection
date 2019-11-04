@@ -54,7 +54,7 @@ public class RedisDemo4Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void listItemInputNotNullNotNullNotNullNegativeOutputJedisConnectionException9992f13eb6ca8951013() {
 //
@@ -105,7 +105,22 @@ public class RedisDemo4Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputJedisConnectionException999c571a54b19fcf4d5() {
+
+    // Arrange
+    final String[] arg0 = { ".", ".", "." };
+
+    // Act
+    thrown.expect(JedisConnectionException.class);
+    RedisDemo4.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void purchaseItemInputNotNullNotNullNotNullNotNullNegativeOutputJedisConnectionException999c18fac73b66726a2() {
 //
@@ -172,7 +187,7 @@ public class RedisDemo4Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testBenchmarkUpdateTokenInputNotNullOutputRuntimeException9994c404f126184b6e5() {
 //
@@ -220,7 +235,7 @@ public class RedisDemo4Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testListItemInputNotNullTrueOutputJedisConnectionException99981a790eccdc939ab() {
 //
@@ -269,7 +284,7 @@ public class RedisDemo4Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testPurchaseItemInputNotNullOutputJedisConnectionException999aa2ad4071ed2e124() {
 //
@@ -317,7 +332,7 @@ public class RedisDemo4Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void updateTokenPipelineInputNotNullNotNullNotNullNotNullOutputJedisConnectionException999d77c5fc80b35fd86() {
 //
@@ -369,7 +384,7 @@ public class RedisDemo4Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void updateTokenInputNotNullNotNullNotNullNotNullOutputJedisConnectionException999fcf1c1ad167b586d() {
 //

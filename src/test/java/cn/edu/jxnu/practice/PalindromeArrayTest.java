@@ -30,6 +30,20 @@ public class PalindromeArrayTest {
 
   }
 
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid9996d2bfb78e6740957() {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    PalindromeArray.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+
 //failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void palindromeArrayHelperInput83ZeroZeroOutputZero999245a740056b9786e() throws InvocationTargetException {

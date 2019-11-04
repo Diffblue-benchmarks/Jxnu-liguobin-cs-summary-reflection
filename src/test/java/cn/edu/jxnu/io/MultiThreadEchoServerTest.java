@@ -9,6 +9,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 
+import java.io.IOException;
 import java.net.Socket;
 import java.net.SocketImpl;
 
@@ -18,6 +19,9 @@ public class MultiThreadEchoServerTest {
 
   @Rule
   public final Timeout globalTimeout = new Timeout(10000);
+
+  @Rule
+  public final ExpectedException thrown = ExpectedException.none();
 
 //failed_compile   // Test written by Diffblue Cover
 //  @Test
@@ -61,4 +65,19 @@ public class MultiThreadEchoServerTest {
     Assert.assertNotNull(actual);
 
   }
+
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputNullPointerException9990aea1a821d024969() throws IOException {
+//
+//    // Arrange
+//    final String[] arg0 = { " connect!", " connect!", " connect!" };
+//
+//    // Act
+//    thrown.expect(NullPointerException.class);
+//    MultiThreadEchoServer.main(arg0);
+//
+//    // The method is not expected to return due to exception thrown
+//
+//  }
 }

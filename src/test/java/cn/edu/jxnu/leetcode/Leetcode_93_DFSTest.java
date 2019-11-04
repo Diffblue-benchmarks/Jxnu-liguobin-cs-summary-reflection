@@ -32,6 +32,20 @@ public class Leetcode_93_DFSTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999d90a22f51b126fa0() {
+
+    // Arrange
+    final String[] arg0 = { "0", "0", "0" };
+
+    // Act
+    Leetcode_93_DFS.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void restoreIpAddressesInputNotNullOutput09993f46b66de6d3a358() {
 
     // Arrange

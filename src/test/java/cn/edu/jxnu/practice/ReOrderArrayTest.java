@@ -46,6 +46,20 @@ public class ReOrderArrayTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999455e6c64b014412c() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    ReOrderArray.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void reOrderArray2Input8OutputVoid9995f860b13261b69d0() {
 
     // Arrange

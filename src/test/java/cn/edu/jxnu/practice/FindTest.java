@@ -66,4 +66,18 @@ public class FindTest {
 //    Assert.assertTrue(actual);
 //
 //  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999b710a1fb3719b677() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Find.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

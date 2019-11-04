@@ -15,6 +15,9 @@ public class T61Test {
   @Rule
   public final Timeout globalTimeout = new Timeout(10000);
 
+  @Rule
+  public final ExpectedException thrown = ExpectedException.none();
+
   // Test written by Diffblue Cover
   @Test
   public void constructorOutputNotNull9996955bcb52b6dc4ae() {
@@ -25,6 +28,27 @@ public class T61Test {
     // Assert result
     Assert.assertNotNull(actual);
     Assert.assertEquals(-1, actual.index);
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void Deserialize2Input3OutputNumberFormatException999e64b8696d402fcf0() {
+
+    // Arrange
+    final T61 thisObj = new T61();
+    final String[] arg0 = { "", "", "" };
+    try {
+
+      // Act
+      thrown.expect(NumberFormatException.class);
+      thisObj.Deserialize2(arg0);
+    } catch (NumberFormatException ex) {
+
+      // Assert side effects
+      Assert.assertEquals(0, thisObj.index);
+      throw ex;
+    }
 
   }
 

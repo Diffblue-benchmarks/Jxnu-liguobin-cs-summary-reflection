@@ -45,4 +45,18 @@ public class FindSequenceTest {
     Assert.assertEquals(arrayList, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999bc4159a01cdac73e() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    FindSequence.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

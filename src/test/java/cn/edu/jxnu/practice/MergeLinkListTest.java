@@ -29,6 +29,20 @@ public class MergeLinkListTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9990f1cfb5e9519da77() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    MergeLinkList.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void Merge2InputNotNullNotNullOutputNotNull99950619076b7970533() {
 
     // Arrange

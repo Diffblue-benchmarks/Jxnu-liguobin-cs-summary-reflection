@@ -89,4 +89,18 @@ public class FibonacciDemoTest {
     Assert.assertEquals(0, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999ff5893bcd4b36320() throws Exception {
+
+    // Arrange
+    final String[] arg0 = { " is too big to this function that maybe make OOM!", " is too big to this function that maybe make OOM!", " is too big to this function that maybe make OOM!" };
+
+    // Act
+    FibonacciDemo.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

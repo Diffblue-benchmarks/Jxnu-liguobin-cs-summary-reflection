@@ -28,6 +28,20 @@ public class Leetcode_376_DpTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999a078e3c03c5fb865() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Leetcode_376_Dp.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void wiggleMaxLength2Input8OutputPositive999f592c16e7a43e3af() {
 
     // Arrange

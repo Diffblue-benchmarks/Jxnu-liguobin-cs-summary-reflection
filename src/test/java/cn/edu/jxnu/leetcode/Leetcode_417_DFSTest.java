@@ -32,7 +32,7 @@ public class Leetcode_417_DFSTest {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void dfsInputNegativeNegative3OutputArrayIndexOutOfBoundsException99913f69760d2474579() {
 //
@@ -51,8 +51,8 @@ public class Leetcode_417_DFSTest {
 //    // The method is not expected to return due to exception thrown
 //
 //  }
-//
-//  // Test written by Diffblue Cover
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void pacificAtlanticInput3Output249993e027a84445976dc() {
 //

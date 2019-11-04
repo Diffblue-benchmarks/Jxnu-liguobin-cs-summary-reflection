@@ -47,5 +47,19 @@
 //    Assert.assertNotNull(actual);
 //
 //  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid9997c3f27114f0fb26d() throws InterruptedException {
+//
+//    // Arrange
+//    final String[] arg0 = { "<", "<", "<" };
+//
+//    // Act
+//    CompletableFutureDemo.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

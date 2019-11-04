@@ -25,4 +25,18 @@ public class GesturePasswordTest {
     Assert.assertNotNull(actual);
 
   }
+
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid99929b77f525ec02839() {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    GesturePassword.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 }

@@ -100,4 +100,18 @@ public class GetNumberOfKTest {
     Assert.assertEquals(8, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999af1a06d734946e26() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    GetNumberOfK.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

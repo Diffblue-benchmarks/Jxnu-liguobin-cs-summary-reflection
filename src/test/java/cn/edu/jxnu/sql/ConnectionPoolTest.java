@@ -1,6 +1,7 @@
 //package cn.edu.jxnu.sql;
 //
 //import cn.edu.jxnu.sql.ConnectionPool;
+//import com.diffblue.deeptestutils.Reflector;
 //import org.junit.Assert;
 //import org.junit.Rule;
 //import org.junit.Test;
@@ -28,6 +29,23 @@
 //
 //    // Assert result
 //    Assert.assertNotNull(actual);
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void fetchConnectionInputPositiveOutputNotNull999534894e377567d3c() throws InterruptedException {
+//
+//    // Arrange
+//    final ConnectionPool thisObj = new ConnectionPool(1);
+//    final long arg0 = 1L;
+//
+//    // Act
+//    final Connection actual = thisObj.fetchConnection(arg0);
+//
+//    // Assert result
+//    Assert.assertNotNull(actual);
+//    Assert.assertNotNull(Reflector.getInstanceField(actual, "h"));
 //
 //  }
 //

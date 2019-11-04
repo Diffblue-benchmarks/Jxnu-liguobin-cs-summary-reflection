@@ -46,4 +46,18 @@ public class CalculateStringDistanceTest {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9996f20b0ea27276b01() {
+
+    // Arrange
+    final String[] arg0 = { "abcdef", "abcdef", "abcdef" };
+
+    // Act
+    CalculateStringDistance.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

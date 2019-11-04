@@ -39,5 +39,19 @@
 //    // The method returns void, testing that no exception is thrown
 //
 //  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid999f1a7237fb30fe50d() {
+//
+//    // Arrange
+//    final String[] arg0 = { "Mule eat", "Mule eat", "Mule eat" };
+//
+//    // Act
+//    Mule.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

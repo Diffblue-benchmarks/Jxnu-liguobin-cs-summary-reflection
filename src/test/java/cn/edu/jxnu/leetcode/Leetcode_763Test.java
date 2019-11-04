@@ -33,6 +33,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid9996da37b8fc6ffe7b7() {
+//
+//    // Arrange
+//    final String[] arg0 = { " ", " ", " " };
+//
+//    // Act
+//    Leetcode_763.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void partitionLabelsInputNotNullOutputArrayIndexOutOfBoundsException999633b5d061afb99ee() {
 //
 //    // Arrange

@@ -28,7 +28,7 @@ public class MultiThreadNIOEchoServerTest {
 
     // Arrange
     final MultiThreadNIOEchoServer multiThreadNIOEchoServer = new MultiThreadNIOEchoServer();
-    final EchoClient thisObj = multiThreadNIOEchoServer.new EchoClient();
+    final MultiThreadNIOEchoServer.EchoClient thisObj = multiThreadNIOEchoServer.new EchoClient();
     final ByteBuffer arg0 = null;
 
     // Act
@@ -47,7 +47,7 @@ public class MultiThreadNIOEchoServerTest {
 
     // Arrange
     final MultiThreadNIOEchoServer multiThreadNIOEchoServer = new MultiThreadNIOEchoServer();
-    final EchoClient thisObj = multiThreadNIOEchoServer.new EchoClient();
+    final MultiThreadNIOEchoServer.EchoClient thisObj = multiThreadNIOEchoServer.new EchoClient();
 
     // Act
     final LinkedList<ByteBuffer> actual = thisObj.getOutputQueue();
@@ -64,7 +64,7 @@ public class MultiThreadNIOEchoServerTest {
 
     // Arrange
     final MultiThreadNIOEchoServer multiThreadNIOEchoServer = new MultiThreadNIOEchoServer();
-    final HandleMsg thisObj = multiThreadNIOEchoServer.new HandleMsg(null, null);
+    final MultiThreadNIOEchoServer.HandleMsg thisObj = multiThreadNIOEchoServer.new HandleMsg(null, null);
 
     // Act
     thrown.expect(NullPointerException.class);
@@ -85,4 +85,18 @@ public class MultiThreadNIOEchoServerTest {
     Assert.assertNotNull(actual);
 
   }
+
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid999e2011e80c671bfd7() {
+//
+//    // Arrange
+//    final String[] arg0 = { "Exception caught, program exiting...", "Exception caught, program exiting...", "Exception caught, program exiting..." };
+//
+//    // Act
+//    MultiThreadNIOEchoServer.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 }

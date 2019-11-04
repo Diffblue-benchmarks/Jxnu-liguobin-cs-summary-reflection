@@ -28,6 +28,20 @@ public class IsThePowerOf2Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999181f6ac971bee623() {
+
+    // Arrange
+    final String[] arg0 = { "::2^", "::2^", "::2^" };
+
+    // Act
+    IsThePowerOf2.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void powerOf2InputZeroOutputNegative9990cf9364de2bbd476() {
 
     // Arrange

@@ -28,6 +28,20 @@ public class Leetcode_650_DpTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999546c76f1d4d062dc() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Leetcode_650_Dp.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void minSteps2InputPositiveOutputZero999ab40319648bd0a99() {
 
     // Arrange

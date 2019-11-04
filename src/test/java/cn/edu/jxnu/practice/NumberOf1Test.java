@@ -28,6 +28,20 @@ public class NumberOf1Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999b42589bc5f6d5c3c() {
+
+    // Arrange
+    final String[] arg0 = { "1", "1", "1" };
+
+    // Act
+    NumberOf1.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void NumberOf1_1InputZeroOutputZero9999e7d0ecb47c98127() {
 
     // Arrange

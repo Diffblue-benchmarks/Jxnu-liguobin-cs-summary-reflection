@@ -43,6 +43,20 @@ public class BFCompilerTestTest {
 
 //failed_compile   // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid9997e0227ca07a756eb() throws Throwable {
+//
+//    // Arrange
+//    final String[] arg0 = { "", "", "" };
+//
+//    // Act
+//    BFCompilerTest.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
 //  public void testCompileEchoOutputVoid9991bed6787f978d23e() throws Throwable {
 //
 //    // Arrange

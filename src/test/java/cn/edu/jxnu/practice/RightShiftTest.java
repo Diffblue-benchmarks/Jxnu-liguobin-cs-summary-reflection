@@ -33,6 +33,20 @@ public class RightShiftTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid99963b2840142f7cfee() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    RightShift.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void reverseArrayInput8ZeroZeroOutputVoid9997949c5ae0c1b617f() {
 
     // Arrange

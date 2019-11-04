@@ -89,4 +89,18 @@ public class GetGcdTest {
     Assert.assertEquals(1, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999ee1fe15845e23079() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    GetGcd.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

@@ -25,5 +25,19 @@
 //    Assert.assertNotNull(actual);
 //
 //  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid999e118e19b5c5fd97a() {
+//
+//    // Arrange
+//    final String[] arg0 = { "1111", "1111", "1111" };
+//
+//    // Act
+//    JavaIntersectionList.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

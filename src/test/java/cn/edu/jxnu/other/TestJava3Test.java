@@ -25,4 +25,18 @@ public class TestJava3Test {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999faf224d573b45119() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    TestJava3.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

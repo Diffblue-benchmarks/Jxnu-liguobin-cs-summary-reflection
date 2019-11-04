@@ -44,5 +44,19 @@
 //    Assert.assertEquals(0, actual.maxDistance);
 //
 //  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid999e59c6bdc8d039c73() {
+//
+//    // Arrange
+//    final String[] arg0 = { "max distance-->", "max distance-->", "max distance-->" };
+//
+//    // Act
+//    GetMaximumDistance.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

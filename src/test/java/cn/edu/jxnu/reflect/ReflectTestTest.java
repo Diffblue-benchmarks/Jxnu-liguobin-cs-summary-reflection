@@ -82,6 +82,20 @@ public class ReflectTestTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid99964cfa0081417c399() {
+
+    // Arrange
+    final String[] arg0 = { "24", "24", "24" };
+
+    // Act
+    ReflectTest.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void setAgeInputNotNullOutputVoid999b1b72dadd340204e() {
 
     // Arrange

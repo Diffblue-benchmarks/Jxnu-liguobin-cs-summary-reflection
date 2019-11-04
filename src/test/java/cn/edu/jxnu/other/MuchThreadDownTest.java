@@ -50,4 +50,18 @@ public class MuchThreadDownTest {
     // The method is not expected to return due to exception thrown
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999c0eacc6aef08a931() {
+
+    // Arrange
+    final String[] arg0 = { ".", ".", "." };
+
+    // Act
+    MuchThreadDown.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

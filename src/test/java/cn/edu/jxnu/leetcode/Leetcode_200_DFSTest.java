@@ -28,7 +28,7 @@ public class Leetcode_200_DFSTest {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void numIslandsInput3OutputZero999de661acc2512cef3() {
 //

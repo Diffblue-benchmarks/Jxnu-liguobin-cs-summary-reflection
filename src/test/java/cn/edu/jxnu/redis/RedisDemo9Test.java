@@ -311,6 +311,21 @@ public class RedisDemo9Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputJedisConnectionException999cc89da1a0b1217c1() {
+
+    // Arrange
+    final String[] arg0 = { "\n----- testShardKey -----", "\n----- testShardKey -----", "\n----- testShardKey -----" };
+
+    // Act
+    thrown.expect(JedisConnectionException.class);
+    RedisDemo9.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void runOutputJedisConnectionException999e17d4710b403e658() {
 
     // Arrange
@@ -798,7 +813,7 @@ public class RedisDemo9Test {
     // Arrange
     final RedisDemo9 redisDemo9 = new RedisDemo9();
     final Jedis jedis = new Jedis();
-    final RedisInputStream thisObj = redisDemo9.new RedisInputStream(jedis, "aaaaa");
+    final RedisDemo9.RedisInputStream thisObj = redisDemo9.new RedisInputStream(jedis, "aaaaa");
 
     // Act
     thisObj.close();
@@ -814,7 +829,7 @@ public class RedisDemo9Test {
     // Arrange
     final RedisDemo9 redisDemo9 = new RedisDemo9();
     final Jedis jedis = new Jedis();
-    final RedisInputStream thisObj = redisDemo9.new RedisInputStream(jedis, "aaaaa");
+    final RedisDemo9.RedisInputStream thisObj = redisDemo9.new RedisInputStream(jedis, "aaaaa");
 
     // Act
     thrown.expect(JedisConnectionException.class);

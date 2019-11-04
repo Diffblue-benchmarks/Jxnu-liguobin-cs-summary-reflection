@@ -649,6 +649,21 @@ public class RedisDemo6Test {
 //
 //  }
 
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputJedisConnectionException999c1fc1bd352d9f623() throws Exception {
+
+    // Arrange
+    final String[] arg0 = { ".gz", ".gz", ".gz" };
+
+    // Act
+    thrown.expect(JedisConnectionException.class);
+    RedisDemo6.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
 //failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void releaseFairSemaphoreInputNotNullNotNullNotNullOutputJedisConnectionException999369e01b8e7c4db75() {
@@ -1107,7 +1122,7 @@ public class RedisDemo6Test {
 
 //failed_compile   // Test written by Diffblue Cover
 //  @Test
-//  public void testFileDistributionInputNotNullOutputJedisConnectionException999480359b6b375a355() throws InterruptedException, IOException {
+//  public void testFileDistributionInputNotNullOutputJedisConnectionException999480359b6b375a355() throws IOException, InterruptedException {
 //
 //    // Arrange
 //    final RedisDemo6 thisObj = new RedisDemo6();
@@ -1208,7 +1223,7 @@ public class RedisDemo6Test {
     // Arrange
     final RedisDemo6 redisDemo6 = new RedisDemo6();
     final Jedis jedis = new Jedis();
-    final RedisInputStream thisObj = redisDemo6.new RedisInputStream(jedis, "aaaaa");
+    final RedisDemo6.RedisInputStream thisObj = redisDemo6.new RedisInputStream(jedis, "aaaaa");
 
     // Act
     thrown.expect(JedisConnectionException.class);
@@ -1225,7 +1240,7 @@ public class RedisDemo6Test {
     // Arrange
     final RedisDemo6 redisDemo6 = new RedisDemo6();
     final Jedis jedis = new Jedis();
-    final RedisInputStream thisObj = redisDemo6.new RedisInputStream(jedis, "aaaaa");
+    final RedisDemo6.RedisInputStream thisObj = redisDemo6.new RedisInputStream(jedis, "aaaaa");
     final byte[] arg0 = { (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 10, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0, (short) 0 };
     final int arg1 = 1;
     final int arg2 = 1;

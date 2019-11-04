@@ -46,4 +46,18 @@ public class T1Test {
 //    Assert.assertTrue(actual);
 //
 //  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999be11772ca7bd7e4f() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    T1.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

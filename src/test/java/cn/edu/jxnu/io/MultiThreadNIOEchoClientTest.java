@@ -47,6 +47,20 @@ public class MultiThreadNIOEchoClientTest {
 
   }
 
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid99934bbc66182435e56() throws IOException {
+//
+//    // Arrange
+//    final String[] arg0 = { "127.0.0.1", "127.0.0.1", "127.0.0.1" };
+//
+//    // Act
+//    MultiThreadNIOEchoClient.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+
   // Test written by Diffblue Cover
   @Test
   public void workOutputNullPointerException999e5ea3e26b58e86b8() throws IOException {

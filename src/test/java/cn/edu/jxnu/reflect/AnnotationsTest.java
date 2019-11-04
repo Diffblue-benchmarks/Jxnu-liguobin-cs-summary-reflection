@@ -39,4 +39,18 @@ public class AnnotationsTest {
     // The method returns void, testing that no exception is thrown
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9999b2212221eb7af09() throws Exception {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Annotations.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

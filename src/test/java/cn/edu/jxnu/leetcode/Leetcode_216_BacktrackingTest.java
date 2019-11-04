@@ -7,6 +7,8 @@
 //import org.junit.rules.ExpectedException;
 //import org.junit.rules.Timeout;
 //
+//import java.util.NoSuchElementException;
+//
 //
 //
 //public class Leetcode_216_BacktrackingTest {
@@ -43,6 +45,21 @@
 //
 //    // Assert result
 //    Assert.assertNotNull(actual);
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputNoSuchElementException9993d8405865e4ab6b7() {
+//
+//    // Arrange
+//    final String[] arg0 = { ",", ",", "," };
+//
+//    // Act
+//    thrown.expect(NoSuchElementException.class);
+//    Leetcode_216_Backtracking.main(arg0);
+//
+//    // The method is not expected to return due to exception thrown
 //
 //  }
 //}

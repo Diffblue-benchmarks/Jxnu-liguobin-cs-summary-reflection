@@ -30,6 +30,20 @@ public class T6Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9995bb13a829052f64e() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    T6.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void minNumberInRotateArrayInput8OutputZero999f440d06a9756a66d() {
 
     // Arrange

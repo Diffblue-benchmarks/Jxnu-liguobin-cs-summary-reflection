@@ -28,6 +28,20 @@ public class ReverseSentenceTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999ed9d31f42705b35a() {
+
+    // Arrange
+    final String[] arg0 = { "", "", "" };
+
+    // Act
+    ReverseSentence.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void reverseSentenceInputNotNullOutputNotNull9996099b5209521850c() {
 
     // Arrange

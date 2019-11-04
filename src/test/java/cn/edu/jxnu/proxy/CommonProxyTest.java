@@ -10,6 +10,7 @@ import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 
 import java.lang.reflect.Array;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 
 
@@ -18,6 +19,9 @@ public class CommonProxyTest {
 
   @Rule
   public final Timeout globalTimeout = new Timeout(10000);
+
+  @Rule
+  public final ExpectedException thrown = ExpectedException.none();
 
   // Test written by Diffblue Cover
   @Test
@@ -45,6 +49,38 @@ public class CommonProxyTest {
 
     // Act
     CommonProxy.initInterceptors(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void invokeInputNotNullNull3OutputNullPointerException999794a5d815d8373e1() throws Throwable {
+
+    // Arrange
+    final CommonProxy thisObj = new CommonProxy("aaa");
+    final Object arg0 = "aaa";
+    final Method arg1 = null;
+    final Object[] arg2 = { "aaa", "aaa", "aaa" };
+
+    // Act
+    thrown.expect(NullPointerException.class);
+    thisObj.invoke(arg0, arg1, arg2);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999a50deba278fce85d() {
+
+    // Arrange
+    final String[] arg0 = { "aaa", "aaa", "aaa" };
+
+    // Act
+    CommonProxy.main(arg0);
 
     // The method returns void, testing that no exception is thrown
 

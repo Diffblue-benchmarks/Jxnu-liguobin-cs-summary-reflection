@@ -28,6 +28,20 @@ public class SumTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999e8c70774cf1406a6() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Sum.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void Sum_Solution2InputPositiveOutputPositive9997e7d56cb60cefa2a() {
 
     // Arrange

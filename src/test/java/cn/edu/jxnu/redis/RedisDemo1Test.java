@@ -24,7 +24,57 @@ public class RedisDemo1Test {
   @Rule
   public final ExpectedException thrown = ExpectedException.none();
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
+//  public void addGroupsInputNotNullNotNull3OutputJedisConnectionException999d48a8424a2a1d755() {
+//
+//    // Arrange
+//    final RedisDemo1 thisObj = new RedisDemo1();
+//    final Jedis arg0 = new Jedis();
+//    final String arg1 = ":";
+//    final String[] arg2 = { ":", ":", ":" };
+//    try {
+//
+//      // Act
+//      thrown.expect(JedisConnectionException.class);
+//      thisObj.addGroups(arg0, arg1, arg2);
+//    } catch (JedisConnectionException ex) {
+//
+//      // Assert side effects
+//      Assert.assertNotNull(arg0);
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "dataSource"));
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "pipeline"));
+//      Assert.assertNotNull(arg0.getClient());
+//      Assert.assertFalse(arg0.getClient().isInMulti());
+//      Assert.assertFalse(arg0.getClient().isInWatch());
+//      Assert.assertEquals(2000, arg0.getClient().getConnectionTimeout());
+//      Assert.assertNotNull(arg0.getClient().getSocket());
+//      Assert.assertNotNull(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"));
+//      Assert.assertNotNull(Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdLock"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "closePending"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdUseCount"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "stream"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "timeout"));
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getFileDescriptor());
+//      Assert.assertNotNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getInetAddress());
+//      Assert.assertEquals(0, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getLocalPort());
+//      Assert.assertEquals(6379, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getPort());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getServerSocket());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getSocket());
+//      Assert.assertFalse(arg0.getClient().getSocket().isClosed());
+//      Assert.assertFalse(arg0.getClient().getSocket().isInputShutdown());
+//      Assert.assertFalse(arg0.getClient().getSocket().isOutputShutdown());
+//      Assert.assertTrue(arg0.getClient().isBroken());
+//      Assert.assertEquals("localhost", arg0.getClient().getHost());
+//      Assert.assertEquals(6379, arg0.getClient().getPort());
+//      Assert.assertEquals(2000, arg0.getClient().getSoTimeout());
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "transaction"));
+//      throw ex;
+//    }
+//
+//  }
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void articleVoteInputNotNullNotNullNotNullOutputJedisConnectionException99911a001950a99d61f() {
 //
@@ -86,7 +136,7 @@ public class RedisDemo1Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void getArticlesInputNotNullZeroNotNullOutputJedisConnectionException99962f0aba3d52c2ab4() {
 //
@@ -136,7 +186,7 @@ public class RedisDemo1Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void getArticlesInputNotNullZeroOutputJedisConnectionException9990d2a808fa81439a2() {
 //
@@ -185,7 +235,7 @@ public class RedisDemo1Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void getGroupArticlesInputNotNullNotNullZeroNotNullOutputJedisConnectionException999ce7abb7db95671c5() {
 //
@@ -236,7 +286,7 @@ public class RedisDemo1Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void getGroupArticlesInputNotNullNotNullZeroOutputJedisConnectionException999388ff1a648ffcae9() {
 //
@@ -287,6 +337,21 @@ public class RedisDemo1Test {
 //  }
 
   // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputJedisConnectionException999da2407c0b703bdbf() {
+
+    // Arrange
+    final String[] arg0 = { ":", ":", ":" };
+
+    // Act
+    thrown.expect(JedisConnectionException.class);
+    RedisDemo1.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void postArticleInputNotNullNotNullNotNullNotNullOutputJedisConnectionException999342aa3f83d3fe06c() {
 //

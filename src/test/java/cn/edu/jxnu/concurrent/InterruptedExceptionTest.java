@@ -26,4 +26,18 @@ public class InterruptedExceptionTest {
     Assert.assertNull(actual.getMessage());
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999cf5793a6ba8c5574() throws Exception {
+
+    // Arrange
+    final String[] arg0 = { "InterruptedThread", "InterruptedThread", "InterruptedThread" };
+
+    // Act
+    InterruptedException.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

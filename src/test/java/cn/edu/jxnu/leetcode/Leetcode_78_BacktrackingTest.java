@@ -34,6 +34,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid9997336887675216f15() {
+//
+//    // Arrange
+//    final String[] arg0 = { "\n", "\n", "\n" };
+//
+//    // Act
+//    Leetcode_78_Backtracking.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void subsetsInput8Output256999d647118b8cfd3e77() throws InvocationTargetException {
 //
 //    // Arrange

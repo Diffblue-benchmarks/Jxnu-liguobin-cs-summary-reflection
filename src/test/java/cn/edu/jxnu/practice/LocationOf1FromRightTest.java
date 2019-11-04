@@ -40,4 +40,18 @@ public class LocationOf1FromRightTest {
     Assert.assertEquals(1, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9995957843a074ee3e4() {
+
+    // Arrange
+    final String[] arg0 = { "\u7684\u9636\u4e58\u4e2d\u6700\u4f4e\u4f4d1\u7684\u4f4d\u7f6e\u662f\uff1a", "\u7684\u9636\u4e58\u4e2d\u6700\u4f4e\u4f4d1\u7684\u4f4d\u7f6e\u662f\uff1a", "\u7684\u9636\u4e58\u4e2d\u6700\u4f4e\u4f4d1\u7684\u4f4d\u7f6e\u662f\uff1a" };
+
+    // Act
+    LocationOf1FromRight.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

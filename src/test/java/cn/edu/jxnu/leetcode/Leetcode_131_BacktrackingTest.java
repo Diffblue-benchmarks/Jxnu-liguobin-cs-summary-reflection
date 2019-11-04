@@ -32,6 +32,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid999f77a7e50d10d4f79() {
+//
+//    // Arrange
+//    final String[] arg0 = { "\n", "\n", "\n" };
+//
+//    // Act
+//    Leetcode_131_Backtracking.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void partitionInputNotNullOutput1999b792820412a3d5e0() {
 //
 //    // Arrange

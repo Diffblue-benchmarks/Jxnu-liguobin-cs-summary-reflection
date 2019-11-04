@@ -45,6 +45,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid999816df6c47719ee51() {
+//
+//    // Arrange
+//    final String[] arg0 = { "\n************1-----\u904d\u5386\u6570\u7ec4\u5e76\u8fdb\u884c\u5904\u7406******************", "\n************1-----\u904d\u5386\u6570\u7ec4\u5e76\u8fdb\u884c\u5904\u7406******************", "\n************1-----\u904d\u5386\u6570\u7ec4\u5e76\u8fdb\u884c\u5904\u7406******************" };
+//
+//    // Act
+//    Lambda.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void constructorInputNotNullNotNullOutputNotNull9995c97e809c4a83514() {
 //
 //    // Arrange
@@ -52,7 +66,7 @@
 //    final Double arg1 = new Double(1.0);
 //
 //    // Act, creating object to test constructor
-//    final Student actual = new Student(arg0, arg1);
+//    final Lambda.Student actual = new Lambda.Student(arg0, arg1);
 //
 //    // Assert result
 //    Assert.assertNotNull(actual);
@@ -68,7 +82,7 @@
 //    // Arrange
 //    final Integer integer = new Integer(1);
 //    final Double double1 = new Double(1.0);
-//    final Student thisObj = new Student(integer, double1);
+//    final Lambda.Student thisObj = new Lambda.Student(integer, double1);
 //
 //    // Act
 //    final Integer actual = thisObj.getIdInteger();
@@ -85,7 +99,7 @@
 //    // Arrange
 //    final Integer integer = new Integer(1);
 //    final Double double1 = new Double(1.0);
-//    final Student thisObj = new Student(integer, double1);
+//    final Lambda.Student thisObj = new Lambda.Student(integer, double1);
 //
 //    // Act
 //    final Double actual = thisObj.getScore();
@@ -102,7 +116,7 @@
 //    // Arrange
 //    final Integer integer = new Integer(1);
 //    final Double double1 = new Double(1.0);
-//    final Student thisObj = new Student(integer, double1);
+//    final Lambda.Student thisObj = new Lambda.Student(integer, double1);
 //    final Integer arg0 = new Integer(1);
 //
 //    // Act
@@ -119,7 +133,7 @@
 //    // Arrange
 //    final Integer integer = new Integer(1);
 //    final Double double1 = new Double(1.0);
-//    final Student thisObj = new Student(integer, double1);
+//    final Lambda.Student thisObj = new Lambda.Student(integer, double1);
 //    final Double arg0 = new Double(1.0);
 //
 //    // Act
@@ -136,7 +150,7 @@
 //    // Arrange
 //    final Integer integer = new Integer(1);
 //    final Double double1 = new Double(1.0);
-//    final Student thisObj = new Student(integer, double1);
+//    final Lambda.Student thisObj = new Lambda.Student(integer, double1);
 //
 //    // Act
 //    final String actual = thisObj.toString();
@@ -155,7 +169,7 @@
 //    final String arg1 = "aaaaa";
 //
 //    // Act, creating object to test constructor
-//    final User actual = new User(arg0, arg1);
+//    final Lambda.User actual = new Lambda.User(arg0, arg1);
 //
 //    // Assert result
 //    Assert.assertNotNull(actual);
@@ -170,7 +184,7 @@
 //
 //    // Arrange
 //    final Integer integer = new Integer(1);
-//    final User thisObj = new User(integer, "aaaaa");
+//    final Lambda.User thisObj = new Lambda.User(integer, "aaaaa");
 //
 //    // Act
 //    final Integer actual = thisObj.getId();
@@ -186,7 +200,7 @@
 //
 //    // Arrange
 //    final Integer integer = new Integer(1);
-//    final User thisObj = new User(integer, "aaaaa");
+//    final Lambda.User thisObj = new Lambda.User(integer, "aaaaa");
 //
 //    // Act
 //    final String actual = thisObj.getName();
@@ -202,7 +216,7 @@
 //
 //    // Arrange
 //    final Integer integer = new Integer(1);
-//    final User thisObj = new User(integer, "aaaaa");
+//    final Lambda.User thisObj = new Lambda.User(integer, "aaaaa");
 //    final Integer arg0 = new Integer(1);
 //
 //    // Act
@@ -218,7 +232,7 @@
 //
 //    // Arrange
 //    final Integer integer = new Integer(1);
-//    final User thisObj = new User(integer, "aaaaa");
+//    final Lambda.User thisObj = new Lambda.User(integer, "aaaaa");
 //    final String arg0 = "aaaaa";
 //
 //    // Act
@@ -234,7 +248,7 @@
 //
 //    // Arrange
 //    final Integer integer = new Integer(1);
-//    final User thisObj = new User(integer, "aaaaa");
+//    final Lambda.User thisObj = new Lambda.User(integer, "aaaaa");
 //
 //    // Act
 //    final String actual = thisObj.toString();

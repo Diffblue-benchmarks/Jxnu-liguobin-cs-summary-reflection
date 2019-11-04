@@ -75,4 +75,18 @@ public class T7Test {
     Assert.assertEquals(0, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999d47cc5dd8ddac2e3() {
+
+    // Arrange
+    final String[] arg0 = { "(", "(", "(" };
+
+    // Act
+    T7.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

@@ -42,4 +42,18 @@ public class DigitOccurrenceTest {
     Assert.assertEquals(1, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999ee644bf8557f2e5b() {
+
+    // Arrange
+    final String[] arg0 = { "\u8bf7\u5206\u522b\u8f93\u5165num1 num2 ", "\u8bf7\u5206\u522b\u8f93\u5165num1 num2 ", "\u8bf7\u5206\u522b\u8f93\u5165num1 num2 " };
+
+    // Act
+    DigitOccurrence.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

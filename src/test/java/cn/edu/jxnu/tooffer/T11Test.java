@@ -28,6 +28,20 @@ public class T11Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9994cb14f933a97cd91() {
+
+    // Arrange
+    final String[] arg0 = { "1", "1", "1" };
+
+    // Act
+    T11.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void NumberOf1InputNegativeOutputPositive9997d2bca422cf2b8fe() {
 
     // Arrange

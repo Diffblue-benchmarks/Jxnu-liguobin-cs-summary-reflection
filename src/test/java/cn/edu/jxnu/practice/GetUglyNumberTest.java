@@ -41,4 +41,18 @@ public class GetUglyNumberTest {
     Assert.assertEquals(0, actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid99938e05a8bd8983fed() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    GetUglyNumber.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

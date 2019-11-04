@@ -28,6 +28,20 @@ public class StringDisplacementTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid9996436fe207c050438() {
+
+    // Arrange
+    final String[] arg0 = { "************************************", "************************************", "************************************" };
+
+    // Act
+    StringDisplacement.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void stringDisplacement2InputNotNullNotNullOutputNotNull999b361c3377b7bcdd9() {
 
     // Arrange

@@ -25,4 +25,18 @@ public class Get20IntegersTest {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9992a46e02b65e211cf() {
+
+    // Arrange
+    final String[] arg0 = { "a", "a", "a" };
+
+    // Act
+    Get20Integers.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

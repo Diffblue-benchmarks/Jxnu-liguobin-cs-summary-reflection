@@ -25,4 +25,18 @@ public class MyServerTest {
     Assert.assertNotNull(actual);
 
   }
+
+//failed_run   // Test written by Diffblue Cover
+//  @Test
+//  public void receiveFileOutputVoid99978ef8031bf2dc507() {
+//
+//    // Arrange
+//    final MyServer thisObj = new MyServer();
+//
+//    // Act
+//    thisObj.receiveFile();
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 }

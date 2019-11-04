@@ -28,23 +28,37 @@
 //
 //  }
 //
-////  // Test written by Diffblue Cover
-////  @Test
-////  public void findMinArrowShotsInput3OutputPositive999d5ddda0c80fea9cc() {
-////
-////    // Arrange
-////    final Leetcode_452 thisObj = new Leetcode_452();
-////    final int[] myIntArray = { 0, 0, 0, 0, 0, 0, 0, 0 };
-////    final int[] myIntArray1 = { 0, 0, 0, 0, 0, 0, 0, 0 };
-////    final int[] myIntArray2 = { 0, 0, 0, 0, 0, 0, 0, 0 };
-////    final int[] arg0 = { myIntArray, myIntArray1, myIntArray2 };
-////
-////    // Act
-////    final int actual = thisObj.findMinArrowShots(arg0);
-////
-////    // Assert result
-////    Assert.assertEquals(1, actual);
-////
-////  }
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void findMinArrowShotsInput3OutputPositive999d5ddda0c80fea9cc() {
+//
+//    // Arrange
+//    final Leetcode_452 thisObj = new Leetcode_452();
+//    final int[] myIntArray = { 0, 0, 0, 0, 0, 0, 0, 0 };
+//    final int[] myIntArray1 = { 0, 0, 0, 0, 0, 0, 0, 0 };
+//    final int[] myIntArray2 = { 0, 0, 0, 0, 0, 0, 0, 0 };
+//    final int[] arg0 = { myIntArray, myIntArray1, myIntArray2 };
+//
+//    // Act
+//    final int actual = thisObj.findMinArrowShots(arg0);
+//
+//    // Assert result
+//    Assert.assertEquals(1, actual);
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid9999c8e01edc83663cc() {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    Leetcode_452.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

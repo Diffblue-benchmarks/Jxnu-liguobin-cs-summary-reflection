@@ -28,6 +28,20 @@ public class PowerTestTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid99925a6d146ab16f246() {
+
+    // Arrange
+    final String[] arg0 = { "\u5206\u6bcd\u4e0d\u80fd\u4e3a0", "\u5206\u6bcd\u4e0d\u80fd\u4e3a0", "\u5206\u6bcd\u4e0d\u80fd\u4e3a0" };
+
+    // Act
+    PowerTest.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void Power2InputPositivePositiveOutputPositive99923f0060a06d8a362() {
 
     // Arrange

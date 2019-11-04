@@ -42,4 +42,18 @@ public class LeftRotateTest {
     Assert.assertEquals("", actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999ddeb34a008c9b685() {
+
+    // Arrange
+    final String[] arg0 = { "", "", "" };
+
+    // Act
+    LeftRotate.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

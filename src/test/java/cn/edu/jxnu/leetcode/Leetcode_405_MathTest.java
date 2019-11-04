@@ -28,6 +28,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid9991caf6fefd9c13dfc() {
+//
+//    // Arrange
+//    final String[] arg0 = { "0", "0", "0" };
+//
+//    // Act
+//    Leetcode_405_Math.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void toHexInputPositiveOutputNotNull999bd6e34c41d3bae59() {
 //
 //    // Arrange

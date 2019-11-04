@@ -31,7 +31,21 @@ public class PrintMatrixTest {
 
   }
 
-//  // Test written by Diffblue Cover
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999845bbc3cc5cf09b0() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    PrintMatrix.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void printMatrix2Input3Output24999887ddf3ba80dd81a() throws InvocationTargetException {
 //
@@ -74,8 +88,8 @@ public class PrintMatrixTest {
 //    Assert.assertEquals(arrayList, actual);
 //
 //  }
-//
-//  // Test written by Diffblue Cover
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void printMatrixInput3Output2499964dd88f0cc8ce35e() throws InvocationTargetException {
 //
@@ -119,8 +133,8 @@ public class PrintMatrixTest {
 //    Assert.assertEquals(arrayList, actual);
 //
 //  }
-//
-//  // Test written by Diffblue Cover
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void showInput3NegativeOutputVoid9991b4ac4c0c6ec5d63() {
 //

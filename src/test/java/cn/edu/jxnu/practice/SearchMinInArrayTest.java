@@ -30,6 +30,20 @@ public class SearchMinInArrayTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999d7454f02236ee0a0() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    SearchMinInArray.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void minNumberInRotateArray2Input8OutputZero999969acaa068551699() {
 
     // Arrange

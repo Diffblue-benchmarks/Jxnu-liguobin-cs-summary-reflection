@@ -19,7 +19,7 @@ public class CompositeTest {
   @Rule
   public final Timeout globalTimeout = new Timeout(10000);
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void addInputNotNullOutputVoid999df508b316152ef10() {
 //
@@ -66,8 +66,8 @@ public class CompositeTest {
 //    Assert.assertEquals(0, ((Composite) thisObj.getChildren().get(0)).getY());
 //
 //  }
-//
-//  // Test written by Diffblue Cover
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void constructorOutputNotNull99943e473327586e766() {
 //

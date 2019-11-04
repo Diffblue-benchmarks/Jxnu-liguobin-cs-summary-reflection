@@ -42,7 +42,7 @@ public class RedisDemo2Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void addToCartInputNotNullNotNullNotNullZeroOutputJedisConnectionException9993acb6e6d7e8130a4() {
 //
@@ -101,7 +101,7 @@ public class RedisDemo2Test {
     final RedisDemo2 thisObj = new RedisDemo2();
     final Jedis arg0 = new Jedis();
     final String arg1 = "\n----- testCacheRequest -----";
-    final Callback arg2 = null;
+    final RedisDemo2.Callback arg2 = null;
 
     // Act
     final String actual = thisObj.cacheRequest(arg0, arg1, arg2);
@@ -127,7 +127,7 @@ public class RedisDemo2Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void checkTokenInputNotNullNotNullOutputJedisConnectionException999201e1bc4fe6ca2e7() {
 //
@@ -239,6 +239,21 @@ public class RedisDemo2Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputJedisConnectionException999aa2755b289d02aed() throws InterruptedException {
+
+    // Arrange
+    final String[] arg0 = { "\n----- testCacheRequest -----", "\n----- testCacheRequest -----", "\n----- testCacheRequest -----" };
+
+    // Act
+    thrown.expect(JedisConnectionException.class);
+    RedisDemo2.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void runOutputJedisConnectionException9991863ce63a050ca4b() throws InterruptedException {
 
     // Arrange
@@ -252,7 +267,7 @@ public class RedisDemo2Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void scheduleRowCacheInputNotNullNotNullZeroOutputJedisConnectionException9997bfbf91b88b21d84() {
 //
@@ -302,7 +317,7 @@ public class RedisDemo2Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testCacheRequestInputNotNullOutputJedisConnectionException9994fb2e766d1ee0a77() {
 //
@@ -350,7 +365,7 @@ public class RedisDemo2Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testCacheRowsInputNotNullOutputJedisConnectionException999f89c0fbe948ca669() throws InterruptedException {
 //
@@ -398,7 +413,7 @@ public class RedisDemo2Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testLoginCookiesInputNotNullOutputJedisConnectionException9991d377a5e2225cbc0() throws InterruptedException {
 //
@@ -446,7 +461,7 @@ public class RedisDemo2Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testShopppingCartCookiesInputNotNullOutputJedisConnectionException99982ebf8288dc87d93() throws InterruptedException {
 //
@@ -494,7 +509,7 @@ public class RedisDemo2Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void updateTokenInputNotNullNotNullNotNullNotNullOutputJedisConnectionException999da2511f9404dee8b() {
 //

@@ -95,6 +95,20 @@ public class LongAdderDemoTest {
 
   }
 
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999320fcb80396113df() throws InterruptedException {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    LongAdderDemo.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
 //failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void constructorInputNotNullOutputNotNull999dc0c595c554a9204() {
@@ -103,7 +117,7 @@ public class LongAdderDemoTest {
 //    final Long arg0 = new Long(100_000_000L);
 //
 //    // Act, creating object to test constructor
-//    final LongAddrThread actual = new LongAddrThread(arg0);
+//    final LongAdderDemo.LongAddrThread actual = new LongAdderDemo.LongAddrThread(arg0);
 //
 //    // Assert result
 //    Assert.assertNotNull(actual);
@@ -118,7 +132,7 @@ public class LongAdderDemoTest {
 //
 //    // Arrange
 //    final Long long1 = new Long(100_000_000L);
-//    final LongAddrThread thisObj = new LongAddrThread(long1);
+//    final LongAdderDemo.LongAddrThread thisObj = new LongAdderDemo.LongAddrThread(long1);
 //
 //    // Act
 //    thisObj.run();
@@ -136,7 +150,7 @@ public class LongAdderDemoTest {
 //    final Long arg1 = new Long(100_000_000L);
 //
 //    // Act, creating object to test constructor
-//    final SyncThread actual = new SyncThread(arg0, arg1);
+//    final LongAdderDemo.SyncThread actual = new LongAdderDemo.SyncThread(arg0, arg1);
 //
 //    // Assert result
 //    Assert.assertNotNull(actual);
@@ -154,7 +168,7 @@ public class LongAdderDemoTest {
 //    // Arrange
 //    final LongAdderDemo longAdderDemo = new LongAdderDemo();
 //    final Long long1 = new Long(100_000_000L);
-//    final SyncThread thisObj = new SyncThread(longAdderDemo, long1);
+//    final LongAdderDemo.SyncThread thisObj = new LongAdderDemo.SyncThread(longAdderDemo, long1);
 //
 //    // Act
 //    thisObj.run();

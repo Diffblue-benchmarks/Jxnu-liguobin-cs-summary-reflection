@@ -28,6 +28,20 @@ public class StrToIntTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid99923cf63da6325a9ac() {
+
+    // Arrange
+    final String[] arg0 = { "", "", "" };
+
+    // Act
+    StrToInt.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void strToIntInputNotNullOutputZero9993354aa63c9deb11e() {
 
     // Arrange

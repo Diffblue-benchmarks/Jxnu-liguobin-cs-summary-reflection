@@ -41,5 +41,19 @@
 //    Assert.assertEquals(-1, actual);
 //
 //  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid999831e27818ec44391() {
+//
+//    // Arrange
+//    final String[] arg0 = { "", "", "" };
+//
+//    // Act
+//    LinkedHashMapDemo1.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

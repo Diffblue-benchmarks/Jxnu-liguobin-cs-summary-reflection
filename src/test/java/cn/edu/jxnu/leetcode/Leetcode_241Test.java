@@ -44,5 +44,19 @@
 //    // The method is not expected to return due to exception thrown
 //
 //  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid9997f98a65516d57102() {
+//
+//    // Arrange
+//    final String[] arg0 = { "*", "*", "*" };
+//
+//    // Act
+//    Leetcode_241.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
 //}
 //

@@ -25,4 +25,18 @@ public class TestDecoratorTest {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid999db265b1950c0249c() {
+
+    // Arrange
+    final String[] arg0 = { "\u88c5\u9970\u540e\u7684\u529f\u80fd\u3002\u3002\u3002\u3002\u3002", "\u88c5\u9970\u540e\u7684\u529f\u80fd\u3002\u3002\u3002\u3002\u3002", "\u88c5\u9970\u540e\u7684\u529f\u80fd\u3002\u3002\u3002\u3002\u3002" };
+
+    // Act
+    TestDecorator.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

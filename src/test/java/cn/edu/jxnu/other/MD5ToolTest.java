@@ -28,6 +28,20 @@ public class MD5ToolTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid99904c2410432aaebae() {
+
+    // Arrange
+    final String[] arg0 = { "abcdefh", "abcdefh", "abcdefh" };
+
+    // Act
+    MD5Tool.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void MD5InputNotNullOutputNotNull999c0fc182078050b7e() {
 
     // Arrange

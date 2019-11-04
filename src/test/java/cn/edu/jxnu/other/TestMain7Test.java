@@ -22,7 +22,7 @@ public class TestMain7Test {
 
     // Arrange
     final TestMain7 testMain7 = new TestMain7();
-    final Dec thisObj = testMain7.new Dec();
+    final TestMain7.Dec thisObj = testMain7.new Dec();
 
     // Act
     thisObj.run();
@@ -37,7 +37,7 @@ public class TestMain7Test {
 
     // Arrange
     final TestMain7 testMain7 = new TestMain7();
-    final Inc thisObj = testMain7.new Inc();
+    final TestMain7.Inc thisObj = testMain7.new Inc();
 
     // Act
     thisObj.run();
@@ -55,6 +55,20 @@ public class TestMain7Test {
 
     // Assert result
     Assert.assertNotNull(actual);
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9990f457da0ae03df92() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    TestMain7.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
 
   }
 }

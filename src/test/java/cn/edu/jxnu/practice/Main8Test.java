@@ -25,4 +25,18 @@ public class Main8Test {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9994522fe642502d598() {
+
+    // Arrange
+    final String[] arg0 = { "asd", "asd", "asd" };
+
+    // Act
+    Main8.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

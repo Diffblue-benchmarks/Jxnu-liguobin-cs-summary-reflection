@@ -68,4 +68,18 @@ public class StampedLockDemo1Test {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9997f3b7840cfbc350f() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    StampedLockDemo1.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

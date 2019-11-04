@@ -25,4 +25,22 @@ public class Leetcode_474_DpTest {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void findMaxFormInput3ZeroZeroOutputZero999cce1a98af04cc61c() {
+
+    // Arrange
+    final Leetcode_474_Dp thisObj = new Leetcode_474_Dp();
+    final String[] arg0 = { "0", "0", "0" };
+    final int arg1 = 0;
+    final int arg2 = 0;
+
+    // Act
+    final int actual = thisObj.findMaxForm(arg0, arg1, arg2);
+
+    // Assert result
+    Assert.assertEquals(0, actual);
+
+  }
 }

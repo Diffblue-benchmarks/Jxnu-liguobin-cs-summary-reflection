@@ -57,4 +57,18 @@ public class Leetcode_205_StringTest {
     Assert.assertTrue(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9995b7315eea7431204() {
+
+    // Arrange
+    final String[] arg0 = { "add", "add", "add" };
+
+    // Act
+    Leetcode_205_String.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

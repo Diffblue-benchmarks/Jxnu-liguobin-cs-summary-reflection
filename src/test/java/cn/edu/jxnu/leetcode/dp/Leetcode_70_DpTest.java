@@ -41,4 +41,18 @@ public class Leetcode_70_DpTest {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid99946c101d8032bf480() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Leetcode_70_Dp.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

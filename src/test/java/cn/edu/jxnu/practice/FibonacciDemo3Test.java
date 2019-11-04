@@ -76,6 +76,20 @@ public class FibonacciDemo3Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999008c93afcc760d6b() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    FibonacciDemo3.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void umpFloorInputNegativeOutputNegative99913943208c8090932() {
 
     // Arrange

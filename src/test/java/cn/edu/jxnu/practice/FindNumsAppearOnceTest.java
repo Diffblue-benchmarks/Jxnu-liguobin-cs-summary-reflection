@@ -42,4 +42,18 @@ public class FindNumsAppearOnceTest {
     // The method returns void, testing that no exception is thrown
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid99924f86ab4b8e1594b() {
+
+    // Arrange
+    final String[] arg0 = { " ", " ", " " };
+
+    // Act
+    FindNumsAppearOnce.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

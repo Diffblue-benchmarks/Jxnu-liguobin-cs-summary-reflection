@@ -53,4 +53,18 @@ public class Leetcode_326_MathTest {
     Assert.assertTrue(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid9994554e15b15dec32a() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    Leetcode_326_Math.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

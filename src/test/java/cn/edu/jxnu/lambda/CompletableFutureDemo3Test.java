@@ -7,6 +7,8 @@
 //import org.junit.rules.ExpectedException;
 //import org.junit.rules.Timeout;
 //
+//import java.util.concurrent.ExecutionException;
+//
 //
 //
 //public class CompletableFutureDemo3Test {
@@ -38,6 +40,20 @@
 //
 //    // Assert result
 //    Assert.assertNotNull(actual);
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
+//  public void mainInput3OutputVoid99939463930e560c572() throws InterruptedException, ExecutionException {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    CompletableFutureDemo3.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
 //
 //  }
 //}

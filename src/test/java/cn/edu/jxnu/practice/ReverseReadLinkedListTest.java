@@ -35,6 +35,20 @@
 //
 //  // Test written by Diffblue Cover
 //  @Test
+//  public void mainInput3OutputVoid999dafe04f9ade3f4ea() {
+//
+//    // Arrange
+//    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+//
+//    // Act
+//    ReverseReadLinkedList.main(arg0);
+//
+//    // The method returns void, testing that no exception is thrown
+//
+//  }
+//
+//  // Test written by Diffblue Cover
+//  @Test
 //  public void printListFromTailToHead2InputNotNullOutput1999cab14d4dc1d1f385() throws InvocationTargetException {
 //
 //    // Arrange

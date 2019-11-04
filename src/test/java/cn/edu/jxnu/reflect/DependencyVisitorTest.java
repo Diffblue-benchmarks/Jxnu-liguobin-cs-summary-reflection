@@ -12,6 +12,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 import org.objectweb.asm.AnnotationVisitor;
+import org.objectweb.asm.Handle;
 import org.objectweb.asm.Type;
 
 import java.lang.reflect.Array;
@@ -37,7 +38,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
+    final DependencyVisitor.AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
     final String arg0 = "aaaaa";
     final String arg1 = "aaaaa";
 
@@ -55,7 +56,7 @@ public class DependencyVisitorTest {
 //
 //    // Arrange
 //    final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-//    final AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
+//    final DependencyVisitor.AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
 //    final String arg0 = "aaaaa";
 //
 //    // Act
@@ -74,7 +75,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
+    final DependencyVisitor.AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
     final String arg0 = "aaaaa";
     final String arg1 = "aaaaa";
     final String arg2 = "aaaaa";
@@ -93,7 +94,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
+    final DependencyVisitor.AnnotationDependencyVisitor thisObj = dependencyVisitor.new AnnotationDependencyVisitor();
     final String arg0 = "aaaaa";
     final Object arg1 = "aaaaa";
 
@@ -296,11 +297,64 @@ public class DependencyVisitorTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void visitMethodInputNegativeNotNullNotNullNotNull3OutputStringIndexOutOfBoundsException999cde4c6fbe433be7f() {
+
+    // Arrange
+    final DependencyVisitor thisObj = new DependencyVisitor();
+    final int arg0 = -1;
+    final String arg1 = "/";
+    final String arg2 = "/";
+    final String arg3 = "/";
+    final String[] arg4 = { "/", "/", "/" };
+
+    // Act
+    thrown.expect(StringIndexOutOfBoundsException.class);
+    thisObj.visitMethod(arg0, arg1, arg2, arg3, arg4);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void visitInputNegativeNegativeNotNullNotNullNotNull3OutputStringIndexOutOfBoundsException999ddf5a98ee3517dc4() {
+
+    // Arrange
+    final DependencyVisitor thisObj = new DependencyVisitor();
+    final int arg0 = -1;
+    final int arg1 = -1;
+    final String arg2 = "/";
+    final String arg3 = "/";
+    final String arg4 = "/";
+    final String[] arg5 = { "/", "/", "/" };
+    try {
+
+      // Act
+      thrown.expect(StringIndexOutOfBoundsException.class);
+      thisObj.visit(arg0, arg1, arg2, arg3, arg4, arg5);
+    } catch (StringIndexOutOfBoundsException ex) {
+
+      // Assert side effects
+      final HashMap<String, Map<String, Integer>> hashMap = new HashMap<String, Map<String, Integer>>();
+      final HashMap hashMap1 = new HashMap();
+      hashMap.put("", hashMap1);
+      Assert.assertEquals(hashMap, thisObj.getGlobals());
+      Assert.assertEquals(hashMap1, thisObj.current);
+      final HashSet<String> hashSet = new HashSet<String>();
+      hashSet.add("");
+      Assert.assertEquals(hashSet, thisObj.getPackages());
+      throw ex;
+    }
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void visitAnnotationInputNotNullTrueOutputStackOverflowError999cbb9d676d0883939() {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final FieldDependencyVisitor thisObj = dependencyVisitor.new FieldDependencyVisitor();
+    final DependencyVisitor.FieldDependencyVisitor thisObj = dependencyVisitor.new FieldDependencyVisitor();
     final String arg0 = "aaaaa";
     final boolean arg1 = true;
 
@@ -318,7 +372,7 @@ public class DependencyVisitorTest {
 //
 //    // Arrange
 //    final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-//    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+//    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
 //
 //    // Act
 //    final AnnotationVisitor actual = thisObj.visitAnnotationDefault();
@@ -336,7 +390,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
     final String arg0 = "aaaaa";
     final boolean arg1 = true;
 
@@ -354,7 +408,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
     final int arg0 = 0;
     final String arg1 = "aaaaa";
     final String arg2 = "aaaaa";
@@ -370,11 +424,31 @@ public class DependencyVisitorTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void visitInvokeDynamicInsnInputNotNullNotNullNotNull3OutputStackOverflowError99927da6ae4c29ba6ff() {
+
+    // Arrange
+    final DependencyVisitor dependencyVisitor = new DependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final String arg0 = "aaaaa";
+    final String arg1 = "aaaaa";
+    final Handle arg2 = new Handle(0, "aaaak", "aaaaa", "aaaaa");
+    final Object[] arg3 = { "aaaaa", "aaaaa", "akaaa" };
+
+    // Act
+    thrown.expect(StackOverflowError.class);
+    thisObj.visitInvokeDynamicInsn(arg0, arg1, arg2, arg3);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void visitLdcInsnInputNotNullOutputVoid999425a15b75c8d9901() {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
     final Object arg0 = "aaaaa";
 
     // Act
@@ -390,7 +464,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
     final int arg0 = 0;
     final String arg1 = "aaaaa";
     final String arg2 = "aaaaa";
@@ -410,7 +484,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
     final String arg0 = "aaaaa";
     final int arg1 = 0;
 
@@ -428,7 +502,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
     final int arg0 = 0;
     final String arg1 = "aaaaa";
     final boolean arg2 = true;
@@ -447,7 +521,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
+    final DependencyVisitor.MethodDependencyVisitor thisObj = dependencyVisitor.new MethodDependencyVisitor();
     final int arg0 = 0;
     final String arg1 = "aaaaa";
 
@@ -465,7 +539,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final SignatureDependencyVisitor thisObj = dependencyVisitor.new SignatureDependencyVisitor();
+    final DependencyVisitor.SignatureDependencyVisitor thisObj = dependencyVisitor.new SignatureDependencyVisitor();
     final String arg0 = "$";
     try {
 
@@ -487,7 +561,7 @@ public class DependencyVisitorTest {
 
     // Arrange
     final DependencyVisitor dependencyVisitor = new DependencyVisitor();
-    final SignatureDependencyVisitor thisObj = dependencyVisitor.new SignatureDependencyVisitor();
+    final DependencyVisitor.SignatureDependencyVisitor thisObj = dependencyVisitor.new SignatureDependencyVisitor();
     final String arg0 = "$";
     try {
 

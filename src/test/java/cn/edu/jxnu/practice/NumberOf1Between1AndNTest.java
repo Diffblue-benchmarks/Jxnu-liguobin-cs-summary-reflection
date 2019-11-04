@@ -43,6 +43,20 @@ public class NumberOf1Between1AndNTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999e85686b4d22607fb() {
+
+    // Arrange
+    final String[] arg0 = { "aaaaa", "aaaaa", "aaaaa" };
+
+    // Act
+    NumberOf1Between1AndN.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void NumberOf1Between1AndN_Solution2InputZeroOutputZero9999fd482c2337a48ff() {
 
     // Arrange

@@ -28,6 +28,20 @@ public class T2Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999f973e65b58a1f6db() {
+
+    // Arrange
+    final String[] arg0 = { " ", " ", " " };
+
+    // Act
+    T2.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void replaceSpace1InputNotNullOutputNotNull999ed6510218b46dfba() {
 
     // Arrange

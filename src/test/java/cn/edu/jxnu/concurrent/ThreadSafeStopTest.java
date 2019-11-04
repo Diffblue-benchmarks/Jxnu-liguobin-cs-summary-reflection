@@ -25,4 +25,18 @@ public class ThreadSafeStopTest {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputVoid99960c812707f102d79() throws Exception {
+
+    // Arrange
+    final String[] arg0 = { "CountThread", "CountThread", "CountThread" };
+
+    // Act
+    ThreadSafeStop.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
 }

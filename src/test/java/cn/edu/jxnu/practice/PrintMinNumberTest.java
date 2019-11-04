@@ -28,6 +28,20 @@ public class PrintMinNumberTest {
 
   // Test written by Diffblue Cover
   @Test
+  public void mainInput3OutputVoid999de83a89dd09e128e() {
+
+    // Arrange
+    final String[] arg0 = { " ", " ", " " };
+
+    // Act
+    PrintMinNumber.main(arg0);
+
+    // The method returns void, testing that no exception is thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void printMinNumberInput8OutputNotNull9991f41331253d62c8b() {
 
     // Arrange

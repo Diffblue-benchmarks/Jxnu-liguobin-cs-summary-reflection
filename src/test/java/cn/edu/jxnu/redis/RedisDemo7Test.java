@@ -14,6 +14,7 @@ import org.junit.rules.Timeout;
 import redis.clients.jedis.Client;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Transaction;
+import redis.clients.jedis.ZParams;
 import redis.clients.jedis.exceptions.JedisConnectionException;
 
 import java.lang.reflect.Array;
@@ -62,6 +63,56 @@ public class RedisDemo7Test {
 
   }
 
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
+//  public void addJobInputNotNullNotNull3OutputJedisConnectionException9994f6d28aa8ae19fc1() {
+//
+//    // Arrange
+//    final RedisDemo7 thisObj = new RedisDemo7();
+//    final Jedis arg0 = new Jedis();
+//    final String arg1 = "";
+//    final String[] arg2 = { "", "", "" };
+//    try {
+//
+//      // Act
+//      thrown.expect(JedisConnectionException.class);
+//      thisObj.addJob(arg0, arg1, arg2);
+//    } catch (JedisConnectionException ex) {
+//
+//      // Assert side effects
+//      Assert.assertNotNull(arg0);
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "dataSource"));
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "pipeline"));
+//      Assert.assertNotNull(arg0.getClient());
+//      Assert.assertFalse(arg0.getClient().isInMulti());
+//      Assert.assertFalse(arg0.getClient().isInWatch());
+//      Assert.assertEquals(2000, arg0.getClient().getConnectionTimeout());
+//      Assert.assertNotNull(arg0.getClient().getSocket());
+//      Assert.assertNotNull(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"));
+//      Assert.assertNotNull(Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdLock"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "closePending"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdUseCount"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "stream"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "timeout"));
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getFileDescriptor());
+//      Assert.assertNotNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getInetAddress());
+//      Assert.assertEquals(0, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getLocalPort());
+//      Assert.assertEquals(6379, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getPort());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getServerSocket());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getSocket());
+//      Assert.assertFalse(arg0.getClient().getSocket().isClosed());
+//      Assert.assertFalse(arg0.getClient().getSocket().isInputShutdown());
+//      Assert.assertFalse(arg0.getClient().getSocket().isOutputShutdown());
+//      Assert.assertTrue(arg0.getClient().isBroken());
+//      Assert.assertEquals("localhost", arg0.getClient().getHost());
+//      Assert.assertEquals(6379, arg0.getClient().getPort());
+//      Assert.assertEquals(2000, arg0.getClient().getSoTimeout());
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "transaction"));
+//      throw ex;
+//    }
+//
+//  }
+
   // Test written by Diffblue Cover
   @Test
   public void constructorOutputNotNull999f4d41c8e16231c26() {
@@ -73,6 +124,74 @@ public class RedisDemo7Test {
     Assert.assertNotNull(actual);
 
   }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void differenceInputNotNullNegative3OutputRuntimeException999970b46da469379c4() {
+
+    // Arrange
+    final RedisDemo7 thisObj = new RedisDemo7();
+    final Client client = new Client();
+    final Transaction arg0 = new Transaction(client);
+    final int arg1 = -1;
+    final String[] arg2 = { "", "", "" };
+
+    // Act
+    thrown.expect(RuntimeException.class);
+    thisObj.difference(arg0, arg1, arg2);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
+//  public void findJobsInputNotNull3OutputJedisConnectionException99920b1032e6e244978() {
+//
+//    // Arrange
+//    final RedisDemo7 thisObj = new RedisDemo7();
+//    final Jedis arg0 = new Jedis();
+//    final String[] arg1 = { "", "", "" };
+//    try {
+//
+//      // Act
+//      thrown.expect(JedisConnectionException.class);
+//      thisObj.findJobs(arg0, arg1);
+//    } catch (JedisConnectionException ex) {
+//
+//      // Assert side effects
+//      Assert.assertNotNull(arg0);
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "dataSource"));
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "pipeline"));
+//      Assert.assertNotNull(arg0.getClient());
+//      Assert.assertFalse(arg0.getClient().isInMulti());
+//      Assert.assertFalse(arg0.getClient().isInWatch());
+//      Assert.assertEquals(2000, arg0.getClient().getConnectionTimeout());
+//      Assert.assertNotNull(arg0.getClient().getSocket());
+//      Assert.assertNotNull(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"));
+//      Assert.assertNotNull(Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdLock"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "closePending"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdUseCount"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "stream"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "timeout"));
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getFileDescriptor());
+//      Assert.assertNotNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getInetAddress());
+//      Assert.assertEquals(0, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getLocalPort());
+//      Assert.assertEquals(6379, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getPort());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getServerSocket());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getSocket());
+//      Assert.assertFalse(arg0.getClient().getSocket().isClosed());
+//      Assert.assertFalse(arg0.getClient().getSocket().isInputShutdown());
+//      Assert.assertFalse(arg0.getClient().getSocket().isOutputShutdown());
+//      Assert.assertTrue(arg0.getClient().isBroken());
+//      Assert.assertEquals("localhost", arg0.getClient().getHost());
+//      Assert.assertEquals(6379, arg0.getClient().getPort());
+//      Assert.assertEquals(2000, arg0.getClient().getSoTimeout());
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "transaction"));
+//      throw ex;
+//    }
+//
+//  }
 
   // Test written by Diffblue Cover
   @Test
@@ -97,7 +216,60 @@ public class RedisDemo7Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
+//  public void indexAdInputNotNullNotNull3NotNullCpcPositiveOutputJedisConnectionException99972de4f6e73afbf96() {
+//
+//    // Arrange
+//    final RedisDemo7 thisObj = new RedisDemo7();
+//    final Jedis arg0 = new Jedis();
+//    final String arg1 = "";
+//    final String[] arg2 = { "", "", "" };
+//    final String arg3 = "";
+//    final Ecpm arg4 = Ecpm.CPC;
+//    final double arg5 = 0.125;
+//    try {
+//
+//      // Act
+//      thrown.expect(JedisConnectionException.class);
+//      thisObj.indexAd(arg0, arg1, arg2, arg3, arg4, arg5);
+//    } catch (JedisConnectionException ex) {
+//
+//      // Assert side effects
+//      Assert.assertNotNull(arg0);
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "dataSource"));
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "pipeline"));
+//      Assert.assertNotNull(arg0.getClient());
+//      Assert.assertFalse(arg0.getClient().isInMulti());
+//      Assert.assertFalse(arg0.getClient().isInWatch());
+//      Assert.assertEquals(2000, arg0.getClient().getConnectionTimeout());
+//      Assert.assertNotNull(arg0.getClient().getSocket());
+//      Assert.assertNotNull(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"));
+//      Assert.assertNotNull(Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdLock"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "closePending"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdUseCount"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "stream"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "timeout"));
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getFileDescriptor());
+//      Assert.assertNotNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getInetAddress());
+//      Assert.assertEquals(0, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getLocalPort());
+//      Assert.assertEquals(6379, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getPort());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getServerSocket());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getSocket());
+//      Assert.assertFalse(arg0.getClient().getSocket().isClosed());
+//      Assert.assertFalse(arg0.getClient().getSocket().isInputShutdown());
+//      Assert.assertFalse(arg0.getClient().getSocket().isOutputShutdown());
+//      Assert.assertTrue(arg0.getClient().isBroken());
+//      Assert.assertEquals("localhost", arg0.getClient().getHost());
+//      Assert.assertEquals(6379, arg0.getClient().getPort());
+//      Assert.assertEquals(2000, arg0.getClient().getSoTimeout());
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "transaction"));
+//      throw ex;
+//    }
+//
+//  }
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void indexDocumentInputNotNullNotNullNotNullOutputJedisConnectionException999daa79df7f6a075ec() {
 //
@@ -147,6 +319,158 @@ public class RedisDemo7Test {
 //
 //  }
 
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
+//  public void indexJobInputNotNullNotNull3OutputJedisConnectionException999ebdb0f28d28d03b2() {
+//
+//    // Arrange
+//    final RedisDemo7 thisObj = new RedisDemo7();
+//    final Jedis arg0 = new Jedis();
+//    final String arg1 = "";
+//    final String[] arg2 = { "", "", "" };
+//    try {
+//
+//      // Act
+//      thrown.expect(JedisConnectionException.class);
+//      thisObj.indexJob(arg0, arg1, arg2);
+//    } catch (JedisConnectionException ex) {
+//
+//      // Assert side effects
+//      Assert.assertNotNull(arg0);
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "dataSource"));
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "pipeline"));
+//      Assert.assertNotNull(arg0.getClient());
+//      Assert.assertFalse(arg0.getClient().isInMulti());
+//      Assert.assertFalse(arg0.getClient().isInWatch());
+//      Assert.assertEquals(2000, arg0.getClient().getConnectionTimeout());
+//      Assert.assertNotNull(arg0.getClient().getSocket());
+//      Assert.assertNotNull(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"));
+//      Assert.assertNotNull(Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdLock"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "closePending"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdUseCount"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "stream"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "timeout"));
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getFileDescriptor());
+//      Assert.assertNotNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getInetAddress());
+//      Assert.assertEquals(0, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getLocalPort());
+//      Assert.assertEquals(6379, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getPort());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getServerSocket());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getSocket());
+//      Assert.assertFalse(arg0.getClient().getSocket().isClosed());
+//      Assert.assertFalse(arg0.getClient().getSocket().isInputShutdown());
+//      Assert.assertFalse(arg0.getClient().getSocket().isOutputShutdown());
+//      Assert.assertTrue(arg0.getClient().isBroken());
+//      Assert.assertEquals("localhost", arg0.getClient().getHost());
+//      Assert.assertEquals(6379, arg0.getClient().getPort());
+//      Assert.assertEquals(2000, arg0.getClient().getSoTimeout());
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "transaction"));
+//      throw ex;
+//    }
+//
+//  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void intersectInputNotNullNegative3OutputRuntimeException9993df654bdebb6959b() {
+
+    // Arrange
+    final RedisDemo7 thisObj = new RedisDemo7();
+    final Client client = new Client();
+    final Transaction arg0 = new Transaction(client);
+    final int arg1 = -1;
+    final String[] arg2 = { "", "", "" };
+
+    // Act
+    thrown.expect(RuntimeException.class);
+    thisObj.intersect(arg0, arg1, arg2);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
+//  public void isQualifiedInputNotNullNotNull3OutputJedisConnectionException999ae8dc79ba4e06750() {
+//
+//    // Arrange
+//    final RedisDemo7 thisObj = new RedisDemo7();
+//    final Jedis arg0 = new Jedis();
+//    final String arg1 = "";
+//    final String[] arg2 = { "", "", "" };
+//    try {
+//
+//      // Act
+//      thrown.expect(JedisConnectionException.class);
+//      thisObj.isQualified(arg0, arg1, arg2);
+//    } catch (JedisConnectionException ex) {
+//
+//      // Assert side effects
+//      Assert.assertNotNull(arg0);
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "dataSource"));
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "pipeline"));
+//      Assert.assertNotNull(arg0.getClient());
+//      Assert.assertFalse(arg0.getClient().isInMulti());
+//      Assert.assertFalse(arg0.getClient().isInWatch());
+//      Assert.assertEquals(2000, arg0.getClient().getConnectionTimeout());
+//      Assert.assertNotNull(arg0.getClient().getSocket());
+//      Assert.assertNotNull(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"));
+//      Assert.assertNotNull(Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdLock"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "closePending"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdUseCount"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "stream"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "timeout"));
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getFileDescriptor());
+//      Assert.assertNotNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getInetAddress());
+//      Assert.assertEquals(0, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getLocalPort());
+//      Assert.assertEquals(6379, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getPort());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getServerSocket());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getSocket());
+//      Assert.assertFalse(arg0.getClient().getSocket().isClosed());
+//      Assert.assertFalse(arg0.getClient().getSocket().isInputShutdown());
+//      Assert.assertFalse(arg0.getClient().getSocket().isOutputShutdown());
+//      Assert.assertTrue(arg0.getClient().isBroken());
+//      Assert.assertEquals("localhost", arg0.getClient().getHost());
+//      Assert.assertEquals(6379, arg0.getClient().getPort());
+//      Assert.assertEquals(2000, arg0.getClient().getSoTimeout());
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "transaction"));
+//      throw ex;
+//    }
+//
+//  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void mainInput3OutputJedisConnectionException99977a774339606310d() {
+
+    // Arrange
+    final String[] arg0 = { "", "", "" };
+
+    // Act
+    thrown.expect(JedisConnectionException.class);
+    RedisDemo7.main(arg0);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void matchLocationInputNotNull3OutputRuntimeException999fe10e52cb2791658() {
+
+    // Arrange
+    final RedisDemo7 thisObj = new RedisDemo7();
+    final Client client = new Client();
+    final Transaction arg0 = new Transaction(client);
+    final String[] arg1 = { "", "", "" };
+
+    // Act
+    thrown.expect(RuntimeException.class);
+    thisObj.matchLocation(arg0, arg1);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
   // Test written by Diffblue Cover
   @Test
   public void parseAndSearchInputNotNullNotNullNegativeOutputVoid999b773b2a298f84509() {
@@ -173,7 +497,7 @@ public class RedisDemo7Test {
     final String arg0 = "";
 
     // Act
-    final Query actual = thisObj.parse(arg0);
+    final RedisDemo7.Query actual = thisObj.parse(arg0);
 
     // Assert result
     Assert.assertNotNull(actual);
@@ -184,7 +508,7 @@ public class RedisDemo7Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void recordClickInputNotNullNegativeNotNullTrueOutputJedisConnectionException999312cf4cb65356e5d() {
 //
@@ -235,7 +559,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void recordTargetingResultInputNotNullNegativeNotNullNotNullOutputJedisConnectionException99983f4adc9f313e9aa() {
 //
@@ -302,7 +626,7 @@ public class RedisDemo7Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void searchAndSortInputNotNullNotNullNotNullOutputJedisConnectionException9998014feade1589300() {
 //
@@ -352,7 +676,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void searchAndZsortInputNotNullNotNullTrueNotNullOutputJedisConnectionException9993741ad09ba0afd6c() {
 //
@@ -458,7 +782,57 @@ public class RedisDemo7Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
+//  @Test
+//  public void targetAdsInputNotNull3NotNullOutputJedisConnectionException9998bad95dd18476735() {
+//
+//    // Arrange
+//    final RedisDemo7 thisObj = new RedisDemo7();
+//    final Jedis arg0 = new Jedis();
+//    final String[] arg1 = { "", "", "" };
+//    final String arg2 = "";
+//    try {
+//
+//      // Act
+//      thrown.expect(JedisConnectionException.class);
+//      thisObj.targetAds(arg0, arg1, arg2);
+//    } catch (JedisConnectionException ex) {
+//
+//      // Assert side effects
+//      Assert.assertNotNull(arg0);
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "dataSource"));
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "pipeline"));
+//      Assert.assertNotNull(arg0.getClient());
+//      Assert.assertFalse(arg0.getClient().isInMulti());
+//      Assert.assertFalse(arg0.getClient().isInWatch());
+//      Assert.assertEquals(2000, arg0.getClient().getConnectionTimeout());
+//      Assert.assertNotNull(arg0.getClient().getSocket());
+//      Assert.assertNotNull(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"));
+//      Assert.assertNotNull(Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdLock"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "closePending"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "fdUseCount"));
+//      Assert.assertTrue((boolean) Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "stream"));
+//      Assert.assertEquals(0, Reflector.getInstanceField(Reflector.getInstanceField(arg0.getClient().getSocket(), "impl"), "timeout"));
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getFileDescriptor());
+//      Assert.assertNotNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getInetAddress());
+//      Assert.assertEquals(0, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getLocalPort());
+//      Assert.assertEquals(6379, ((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getPort());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getServerSocket());
+//      Assert.assertNull(((SocketImpl) Reflector.getInstanceField(arg0.getClient().getSocket(), "impl")).getSocket());
+//      Assert.assertFalse(arg0.getClient().getSocket().isClosed());
+//      Assert.assertFalse(arg0.getClient().getSocket().isInputShutdown());
+//      Assert.assertFalse(arg0.getClient().getSocket().isOutputShutdown());
+//      Assert.assertTrue(arg0.getClient().isBroken());
+//      Assert.assertEquals("localhost", arg0.getClient().getHost());
+//      Assert.assertEquals(6379, arg0.getClient().getPort());
+//      Assert.assertEquals(2000, arg0.getClient().getSoTimeout());
+//      Assert.assertNull(Reflector.getInstanceField(arg0, "transaction"));
+//      throw ex;
+//    }
+//
+//  }
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testIndexAndFindJobsInputNotNullOutputJedisConnectionException9994bc5be533aa97031() {
 //
@@ -506,7 +880,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testIndexAndTargetAdsInputNotNullOutputJedisConnectionException9999a9b285759af4b39() {
 //
@@ -554,7 +928,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testIndexDocumentInputNotNullOutputJedisConnectionException9994413f079c0ef7c3b() {
 //
@@ -602,7 +976,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testIsQualifiedForJobInputNotNullOutputJedisConnectionException999ff5813cc2e05b0c5() {
 //
@@ -650,7 +1024,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testParseAndSearchInputNotNullOutputJedisConnectionException9998c5270867960833b() {
 //
@@ -713,7 +1087,7 @@ public class RedisDemo7Test {
 
   }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testSearchWithSortInputNotNullOutputJedisConnectionException999e2f1472bff102b54() {
 //
@@ -761,7 +1135,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testSearchWithZsortInputNotNullOutputJedisConnectionException999e0469d9ac36263b8() {
 //
@@ -809,7 +1183,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testSetOperationsInputNotNullOutputJedisConnectionException999c694d0c9904a5a03() {
 //
@@ -857,7 +1231,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void testStringToScoreInputNotNullOutputJedisConnectionException9997f1241bf00dc6dd0() {
 //
@@ -941,7 +1315,26 @@ public class RedisDemo7Test {
 
   }
 
-//  // Test written by Diffblue Cover
+  // Test written by Diffblue Cover
+  @Test
+  public void unionInputNotNullNegative3OutputRuntimeException9998dc4b07461116536() {
+
+    // Arrange
+    final RedisDemo7 thisObj = new RedisDemo7();
+    final Client client = new Client();
+    final Transaction arg0 = new Transaction(client);
+    final int arg1 = -1;
+    final String[] arg2 = { "", "", "" };
+
+    // Act
+    thrown.expect(RuntimeException.class);
+    thisObj.union(arg0, arg1, arg2);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void updateCpmsInputNotNullNotNullOutputJedisConnectionException999a300847f2b162e62() {
 //
@@ -990,7 +1383,7 @@ public class RedisDemo7Test {
 //
 //  }
 
-//  // Test written by Diffblue Cover
+//failed_compile   // Test written by Diffblue Cover
 //  @Test
 //  public void zaddStringInputNotNullNotNullNotNullOutputJedisConnectionException99998a3b7652e1ba8c2() {
 //
@@ -1043,12 +1436,52 @@ public class RedisDemo7Test {
 
   // Test written by Diffblue Cover
   @Test
+  public void zintersectInputNotNullNegativeNotNull3OutputRuntimeException99976908feed365097f() {
+
+    // Arrange
+    final RedisDemo7 thisObj = new RedisDemo7();
+    final Client client = new Client();
+    final Transaction arg0 = new Transaction(client);
+    final int arg1 = -1;
+    final ZParams arg2 = new ZParams();
+    final String[] arg3 = { "", "", "" };
+
+    // Act
+    thrown.expect(RuntimeException.class);
+    thisObj.zintersect(arg0, arg1, arg2, arg3);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
+  public void zunionInputNotNullNegativeNotNull3OutputRuntimeException999acd62fd08008774e() {
+
+    // Arrange
+    final RedisDemo7 thisObj = new RedisDemo7();
+    final Client client = new Client();
+    final Transaction arg0 = new Transaction(client);
+    final int arg1 = -1;
+    final ZParams arg2 = new ZParams();
+    final String[] arg3 = { "", "", "" };
+
+    // Act
+    thrown.expect(RuntimeException.class);
+    thisObj.zunion(arg0, arg1, arg2, arg3);
+
+    // The method is not expected to return due to exception thrown
+
+  }
+
+  // Test written by Diffblue Cover
+  @Test
   public void compareToInputNotNullOutputZero9990d8118924b01cfcd() {
 
     // Arrange
     final RedisDemo7 redisDemo7 = new RedisDemo7();
-    final WordScore thisObj = redisDemo7.new WordScore("aaaaa", 0L);
-    final WordScore arg0 = thisObj;
+    final RedisDemo7.WordScore thisObj = redisDemo7.new WordScore("aaaaa", 0L);
+    final RedisDemo7.WordScore arg0 = thisObj;
 
     // Act
     final int actual = thisObj.compareTo(arg0);
@@ -1064,7 +1497,7 @@ public class RedisDemo7Test {
 
     // Arrange
     final RedisDemo7 redisDemo7 = new RedisDemo7();
-    final WordScore thisObj = redisDemo7.new WordScore("aaaaa", 0L);
+    final RedisDemo7.WordScore thisObj = redisDemo7.new WordScore("aaaaa", 0L);
     final Object arg0 = "aaaaa";
 
     // Act
@@ -1081,7 +1514,7 @@ public class RedisDemo7Test {
 
     // Arrange
     final RedisDemo7 redisDemo7 = new RedisDemo7();
-    final WordScore thisObj = redisDemo7.new WordScore("aaaaa", 0L);
+    final RedisDemo7.WordScore thisObj = redisDemo7.new WordScore("aaaaa", 0L);
 
     // Act
     final String actual = thisObj.toString();
